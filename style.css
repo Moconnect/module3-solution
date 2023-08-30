@@ -1,0 +1,63 @@
+
+
+.row{
+    background-color: azure;
+}
+
+
+
+@media (max-width: 767px){
+    .navbar-nav{
+        position: absolute;
+        width: 100%;
+        left: 0;
+        right: 0;
+        border: solid;
+        background-color: aqua;
+        margin-top: 9px;
+        box-sizing: border-box;
+    }
+
+}
+
+
+
+
+
+
+
+/* Custom CSS to hide nav items for medium and larger screens */
+@media (min-width: 768px) {
+    .custom-hidden {
+        display: none;
+    }
+}
+
+
+
+
+/* Media query for mobile view (up to 767px) */
+@media (max-width: 767px) {
+    /* Background color for mobile view */
+    .navbar {
+        height: 60px;
+        border: solid;
+    }
+    .container{
+        margin-top: 200px;
+        padding-left: 10px; /* Adjust the left padding as needed */
+        padding-right: 10px; /* Adjust the right padding as needed */
+    }
+
+    .row{
+        padding-left: 10px; /* Adjust the left padding as needed */
+        padding-right: 10px; /* Adjust the right padding as needed */
+    }
+
+    /* Additional styles for mobile view if needed */
+    /* For example, change text color in mobile view */
+    .navbar-nav .nav-link {
+        color: black; /* Replace with your desired text color */
+    }
+}
+
